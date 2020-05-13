@@ -752,7 +752,14 @@ a {
   margin: 4px 8px;
 }
 
+      .sidebar {
+        width: 300px;
+      }
+      .main-container {
+        margin-left: 300px;
+      }
+    
       .post-item .right .feature-container {
-        border-radius: 10px;
+        border-radius: 7px;
       }
     
