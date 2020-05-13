@@ -1,163 +1,140 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>元气东的主页</title>
-<meta name="description" content="来自元气东">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<link rel="shortcut icon" href="https://heyudom.github.io/favicon.ico?v=1589353611119">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://heyudom.github.io/favicon.ico?v=1589353467697">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://heyudom.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://heyudom.github.io">
-        <img src="https://heyudom.github.io/images/avatar.png?v=1589353467697" class="site-logo">
-        <h1 class="site-title">元气东的主页</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://heyudom.github.io">
+  <img class="avatar" src="https://heyudom.github.io/images/avatar.png?v=1589353611119" alt="">
+  </a>
+  <h1 class="site-title">
+    元气东的主页
+  </h1>
+  <p class="site-description">
+    来自元气东
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
+        <a href="/archives" class="menu">
+          归档
+        </a>
       
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
+    
       
-        
-          <a href="https://weibo.com/1783128571/profile?topnav=1&amp;wvr=6" class="site-nav">
-            元气东的微博
-          </a>
-        
+        <a href="/tags" class="menu">
+          标签
+        </a>
       
-    </div>
+    
+      
+        <a href="https://weibo.com/1783128571/profile?topnav=1&amp;wvr=6" class="menu">
+          元气东的微博
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+        <a href="https://weibo.com/1783128571/profile?topnav=1&amp;wvr=6&amp;is_all=1" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
       
-        
+    
       
-        
+    
       
-    </div>
-    <div class="site-description">
-      来自元气东
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://heyudom.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
+    
   </div>
 </div>
 
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://heyudom.github.io/post/test/">
+        <h2 class="post-title">test</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2020-05-12 ·
+        </time>
+        
+      </div>
+      
+        <a href="https://heyudom.github.io/post/test/" class="post-feature-image" style="background-image: url('https://wx1.sinaimg.cn/mw690/6a4861fbly1geovjli78pj22c02c0b29.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>哈哈哈哈</p>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://heyudom.github.io/post/test/">
-                  <h2 class="post-title">test</h2>
-                </a>
-                <div class="post-date">
-                  2020-05-12
-                </div>
-                <div class="post-abstract">
-                  <p>哈哈哈哈</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://heyudom.github.io/post/test/">
-                  <div class="feature-container" style="background-image: url('https://wx1.sinaimg.cn/mw690/6a4861fbly1geovjli78pj22c02c0b29.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://heyudom.github.io/post/hello-gridea/">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://heyudom.github.io/post/hello-gridea/">
+        <h2 class="post-title">Hello Gridea</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2018-12-12 ·
+        </time>
+        
+          <a href="https://heyudom.github.io/tag/gridea/" class="post-tag">
+            # Gridea
+          </a>
+        
+      </div>
+      
+        <a href="https://heyudom.github.io/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://heyudom.github.io/post-images/hello-gridea.png')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
-                </div>
-              </div>
-              
-                <a class="right" href="https://heyudom.github.io/post/hello-gridea/">
-                  <div class="feature-container" style="background-image: url('https://heyudom.github.io/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+      </di>
+    </article>
+  
+</div>
 
-          <div class="pagination-container">
+    
+        <div class="pagination-container">
   
   
 </div>
 
-        </div>
-      </div>
-    </div>
+    
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://heyudom.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
