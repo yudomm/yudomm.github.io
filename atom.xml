@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://4x29u9.coding-pages.com</id>
+    <id>https://z06p3h.coding-pages.com</id>
     <title>Gridea</title>
-    <updated>2020-05-13T05:03:35.211Z</updated>
+    <updated>2020-05-13T05:19:48.659Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://4x29u9.coding-pages.com"/>
-    <link rel="self" href="https://4x29u9.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://z06p3h.coding-pages.com"/>
+    <link rel="self" href="https://z06p3h.coding-pages.com/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://4x29u9.coding-pages.com/images/avatar.png</logo>
-    <icon>https://4x29u9.coding-pages.com/favicon.ico</icon>
+    <logo>https://z06p3h.coding-pages.com/images/avatar.png</logo>
+    <icon>https://z06p3h.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>https://4x29u9.coding-pages.com/post/test/</id>
-        <link href="https://4x29u9.coding-pages.com/post/test/">
+        <id>https://z06p3h.coding-pages.com/post/test/</id>
+        <link href="https://z06p3h.coding-pages.com/post/test/">
         </link>
         <updated>2020-05-12T14:07:32.000Z</updated>
         <summary type="html"><![CDATA[<p>哈哈哈哈</p>
@@ -21,13 +21,13 @@
         <content type="html"><![CDATA[<p>哈哈哈哈</p>
 <!-- more -->
 <p>测试一些😀😀</p>
-<figure data-type="image" tabindex="1"><img src="https://4x29u9.coding-pages.com/post-images/1589345497199.jpeg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://z06p3h.coding-pages.com/post-images/1589345497199.jpeg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://4x29u9.coding-pages.com/post/hello-gridea/</id>
-        <link href="https://4x29u9.coding-pages.com/post/hello-gridea/">
+        <id>https://z06p3h.coding-pages.com/post/hello-gridea/</id>
+        <link href="https://z06p3h.coding-pages.com/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
